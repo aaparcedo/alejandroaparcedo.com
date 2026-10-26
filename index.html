@@ -2,98 +2,107 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Alejandro Aparcedo</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="description" content="Alejandro Aparcedo: software engineer joining Bloomberg in New York, M.S. in Computer Vision at UCF.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:wght@600&family=JetBrains+Mono:wght@500;600&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <main>
 
-    <div id="dhead" class="container">
-      <div class="row">
-        <div id="dpic">
-          <img src="assets/hshot.png" class="ppic" />
-        </div>
-        <div id="ddesc">
-          <h1>Alejandro Aparcedo</h1>
-          <h2>GRFP Fellow</h2>
-          <p>aaparcedo.io@gmail.com</p>
-
-          <p><a href="/resume.pdf">View Resume</a></p>
-          <div id="dico">
-            <a href="https://github.com/aaparcedo"><img src="assets/cgithub.svg" class="iico"/></a>
+      <header class="hero panel">
+        <img src="assets/hshot.png" class="portrait" alt="Alejandro Aparcedo">
+        <div>
+          <div class="chips">
+            <span class="chip"><i class="dot"></i>Joining Bloomberg · New York · Feb 2027</span>
           </div>
+          <h1>Alejandro Aparcedo</h1>
+          <p class="lede">Software engineer with a background in computer vision research. I like building things end to end.</p>
+          <nav class="links">
+            <a href="mailto:aaparcedo.io@gmail.com">Email</a>
+            <a href="https://github.com/aaparcedo">GitHub</a>
+            <a href="https://www.linkedin.com/in/alejandro-aparcedo">LinkedIn</a>
+            <a href="https://scholar.google.com/citations?user=Vf-MwHEAAAAJ&hl=en">Scholar</a>
+            <a href="/resume.pdf">Resume</a>
+          </nav>
         </div>
-      </div>
-    </div>
+      </header>
 
-    <hr>
+      <section>
+        <h2><span>Experience</span></h2>
+        <ol class="timeline">
+          <li>
+            <time>2027</time>
+            <div><b>Software Engineer, Bloomberg</b> · New York<br>Starting February 2027.</div>
+          </li>
+          <li>
+            <time>2026</time>
+            <div><b>AI Engineer, oncologic.ai</b><br>Computer-use agents that extract data from legacy systems.</div>
+          </li>
+          <li>
+            <time>2025 – 2026</time>
+            <div><b>AI Research, Center for Research in Computer Vision</b> · UCF<br>Video understanding with multimodal LLMs.</div>
+          </li>
+          <li>
+            <time>2025</time>
+            <div><b>Supercomputing Intern, Los Alamos National Laboratory</b><br>Built a 10-node cluster; benchmarked GPUDirect Storage and InfiniBand for AI workloads.</div>
+          </li>
+          <li>
+            <time>2023 – 2024</time>
+            <div><b>AI Research Intern, Florida Solar Energy Center</b><br>Power outage prediction from nighttime satellite imagery.</div>
+          </li>
+        </ol>
+      </section>
 
-    <div id="history" class="container">
+      <section>
+        <h2><span>Education</span></h2>
+        <ol class="timeline">
+          <li>
+            <time>2025 – 2026</time>
+            <div><b>M.S. in Computer Vision</b> · University of Central Florida<br>Graduating December 2026. NSF Graduate Research Fellow.</div>
+          </li>
+          <li>
+            <time>2020 – 2024</time>
+            <div><b>B.S. in Computer Science</b> · University of Central Florida</div>
+          </li>
+        </ol>
+      </section>
 
-      <div class="entry row">
-        <div class="timespan">
-          2025 - 2027
-        </div>
-        <div class="ico">
-          <div class="entry-dot"></div>
-          <img src="assets/ucf_logo.png" style="max-width: 96px;"/>
-        </div>
-        <div class="desc">
-          MSc in Computer Vision at the University of Central Florida.
-        </div>
-      </div>
+      <section>
+        <h2><span>Publications</span></h2>
+        <ul class="record">
+          <li>
+            <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Cui_On_the_Robustness_of_Large_Multimodal_Models_Against_Image_Adversarial_CVPR_2024_paper.pdf">On the Robustness of Large Multimodal Models Against Image Adversarial Attacks</a>
+            <span class="venue">CVPR 2024</span>
+            <span class="authors">X. Cui, A. Aparcedo, YK Jang, SN Lim</span>
+          </li>
+          <li>
+            <a href="https://arxiv.org/abs/2410.00017">Multimodal Power Outage Prediction for Rapid Disaster Response and Resource Allocation</a>
+            <span class="venue">PVSC 2024</span>
+            <span class="authors">A. Aparcedo, C. Lopez, A. Kotta, M. Li</span>
+          </li>
+          <li>
+            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0038092X24002330">Generalized deep learning model for photo-voltaic module segmentation from satellite and aerial imagery</a>
+            <span class="venue">Solar Energy, Vol. 274, 2024</span>
+            <span class="authors">G. Garcia, A. Aparcedo, GK Nayak, T. Ahmed, M. Shah, M. Li</span>
+          </li>
+        </ul>
+      </section>
 
-      <div class="entry row">
-        <div class="timespan">
-          2020 - 2024
-        </div>
-        <div class="ico">
-          <div class="entry-dot"></div>
-          <img src="assets/ucf_logo.png" style="max-width: 96px;"/>
-        </div>
-        <div class="desc">
-          BSc in computer science at the University of Central Florida.
-        </div>
-      </div>
+      <section>
+        <h2><span>Press</span></h2>
+        <ul class="record">
+          <li>
+            <a href="https://www.ucf.edu/news/1-minute-with-6-ucf-alums-who-the-nsf-believes-exemplify-advancing-research/">1 Minute with 6 UCF Alums Who the NSF Believes Exemplify Advancing Research</a>
+            <span class="venue">UCF Today, 2025</span>
+          </li>
+        </ul>
+      </section>
 
-    </div>
-
-    <div class="container">
-      <div class="ctitle">publications</div>
-
-      <div class="pub">
-        <div class="pub-title"><a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Cui_On_the_Robustness_of_Large_Multimodal_Models_Against_Image_Adversarial_CVPR_2024_paper.pdf">On the Robustness of Large Multimodal Models Against Image Adversarial Attacks</a></div>
-        <div class="pub-venue">CVPR 2024</div>
-        <div class="pub-authors">X. Cui, A. Aparcedo, YK Jang, SN Lim</div>
-      </div>
-
-      <div class="pub">
-        <div class="pub-title"><a href="https://arxiv.org/abs/2410.00017">Multimodal Power Outage Prediction for Rapid Disaster Response and Resource Allocation</a></div>
-        <div class="pub-venue">PVSC 2024</div>
-        <div class="pub-authors">A. Aparcedo, C. Lopez, A. Kotta, M. Li</div>
-      </div>
-
-      <div class="pub">
-        <div class="pub-title"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0038092X24002330">Generalized deep learning model for photo-voltaic module segmentation from satellite and aerial imagery</a></div>
-        <div class="pub-venue">Solar Energy, Vol. 274, pp. 112539, 2024</div>
-        <div class="pub-authors">G. Garcia, A. Aparcedo, GK Nayak, T. Ahmed, M. Shah, M. Li</div>
-      </div>
-
-      <div>
-        <br>
-        Also on <a href="https://scholar.google.com/citations?user=Vf-MwHEAAAAJ&hl=en">Google Scholar</a>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="ctitle">media appearances</div>
-
-      <div class="pub">
-        <div class="pub-title"><a href="https://www.ucf.edu/news/1-minute-with-6-ucf-alums-who-the-nsf-believes-exemplify-advancing-research/?utm_source=gmucf&utm_medium=email&utm_campaign=news_announcement_email&utm_content=2025-11-10">1 Minute with 6 UCF Alums Who the NSF Believes Exemplify Advancing Research</a></div>
-      </div>
-    </div>
-
-    <br><br><br><br><br><br><br><br><br><br><br>
-
+      <footer>Orlando → New York</footer>
+    </main>
   </body>
 </html>
