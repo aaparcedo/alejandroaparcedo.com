@@ -126,6 +126,30 @@ h2 {
 h2::before { content: ""; width: 8px; height: 8px; transform: rotate(45deg); border: 1px solid var(--gold); }
 h2::after { content: ""; flex: 1; height: 1px; background: linear-gradient(90deg, var(--gold), transparent); opacity: .7; }
 
+/* Project cards */
+.cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+.card { display: block; padding: 20px; border-bottom: 1px solid rgba(201, 168, 76, .28); color: var(--text); }
+.card:hover { border-color: rgba(201, 168, 76, .7); }
+.card img { width: 100%; display: block; border: 1px solid rgba(201, 168, 76, .3); margin-bottom: 14px; }
+.card p { margin: 6px 0 0; color: var(--text-dim); font-size: 16px; }
+.label {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: .24em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: .12em;
+    color: var(--phosphor);
+    text-shadow: 0 0 10px rgba(255, 171, 46, .45);
+    margin: 2px 0 0;
+}
+
 /* Timeline */
 .timeline { list-style: none; margin: 0; padding: 0; border-left: 1px solid rgba(201, 168, 76, .4); }
 .timeline li {
@@ -187,4 +211,5 @@ footer {
     h1 { font-size: 46px; }
     .chips, .links { justify-content: center; }
     .timeline li { grid-template-columns: 1fr; gap: 2px; }
+    .cards { grid-template-columns: 1fr; }
 }
